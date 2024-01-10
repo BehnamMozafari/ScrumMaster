@@ -24,7 +24,7 @@ function completeSprint() {
     updateLSData(LISTOFSPRINTS_KEY, listOfSprints);
 
     alert("Sprint is now marked completed!");
-    // Navigate to backlog.html
+    // Navigate to index.html
     displaySprint();
   }
   else {

@@ -74,7 +74,7 @@ function addSprint() {
     updateLSData(SELECTED_SPRINT_KEY, sprint);
     updateLSData(LISTOFSPRINTS_KEY, listOfSprints);
 
-    // Navigate to selectBacklog.html
+    // Navigate to selectindex.html
     window.location.href = "backlogSelection.html";
 }
 

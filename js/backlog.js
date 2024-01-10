@@ -3,7 +3,7 @@
 * FILENAME :        backlog.js             
 *
 * DESCRIPTION :
-*       This file includes the functions required for the backlog.html page
+*       This file includes the functions required for the index.html page
 *
 * TEAM : 014    
 * AUTHOR:  Behnam Mozafari, Jia Tan, Yue Yao Yan, Ropa Chigumadzi
@@ -151,7 +151,7 @@ function updateDeletedTask(index) {
 function displayDialog(index) {
   let task = filteredTasks[index];
   // Update LS
-  updateLSData(CURRENTPAGE_KEY, 'backlog.html');
+  updateLSData(CURRENTPAGE_KEY, 'index.html');
   updateLSData(CURRENTTASK_KEY, task);
   updateLSData(CURRENTTASKINDEX_KEY, index);
   // update content

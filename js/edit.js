@@ -135,7 +135,7 @@ function showtasksummary() {
 /**
  * editTask function
  * Edits current task
- * updates LS, navigates back to backlog.html
+ * updates LS, navigates back to index.html
  */
 function editTask() {
     // get variables
@@ -193,7 +193,7 @@ function editTask() {
         updateLSData(LISTOFSPRINTS_KEY, listOfSprints);
     }
 
-    // Navigate to backlog.html
+    // Navigate to index.html
     location.href = currentPage;
 }
 

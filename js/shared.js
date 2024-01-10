@@ -631,7 +631,7 @@ let currentTaskIndex = 0;
 let currentSprint = new Sprint();
 let currentMember = new Member();
 let listOfMembers = new Team();
-let currentPage = "backlog.html"
+let currentPage = "index.html"
 // Checking if data available in LS before continuing
 if (checkLSData(BACKLOGTASKS_KEY)) {
     let data = retrieveLSData(BACKLOGTASKS_KEY);

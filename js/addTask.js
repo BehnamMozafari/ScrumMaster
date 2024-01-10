@@ -72,7 +72,7 @@ function verifyInputs() {
 /**
  * addTask function
  * Adds task to backlog
- * updates LS, navigates back to backlog.html
+ * updates LS, navigates back to index.html
  */
 function addTask() {
     // get variables
@@ -110,8 +110,8 @@ function addTask() {
     }
     // Update LS
     updateLSData(BACKLOGTASKS_KEY, backlogTasks);
-    // Navigate to backlog.html
-    location.href = "backlog.html";
+    // Navigate to index.html
+    location.href = "index.html";
 }
 
 /**
