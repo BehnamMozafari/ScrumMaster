@@ -4,7 +4,7 @@ Scrum management web tool
 
 ## Instructions to view web tool
 
-This web tool can be viewed at: 
+This web tool can be viewed at: https://behnammozafari.github.io/ScrumMaster/
 
 ## How It Works
 
